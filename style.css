@@ -1,0 +1,63 @@
+table#image_table{
+  width : 600px ;
+  margin : auto ;
+}
+td.small_thumbnail, td.large_thumbnail{
+  text-align : center ;
+  vertical-align : middle ;
+  padding : 10px ;
+}
+div#sample_swatch{
+  border-top   : 10px solid black ;
+  border-left  : 10px solid black ;
+  border-right : 10px solid black ;
+  width : 200px ;
+  height : 100px ;
+  margin : auto ;
+  margin-top : 20px ;
+}
+div#swatch_colors{
+  border-left : 9px solid black ;
+  border-right : 9px solid black ;
+  padding-right : 2px ;
+  color : white ;
+  background-color : black ;
+  width : 200px ;
+  height : 20px ;
+  margin : auto ;
+  margin-top : 0px ;
+  text-align : right ;
+  font : 10pt courier , monospace ;
+}
+p.error_message{
+  border : 2px solid red ;
+  background : #ffdddd ;
+}
+table#color{
+  width : 600px ;
+  margin : auto ;
+  border-collapse : collapse ;
+}
+th.th_color{
+  width : 200px ;
+  background : #000000 ;
+  color : #ffffff ;
+}
+td.td_color_1, td.td_color_2, td.td_color_3{
+  width : 225px ;
+  text-align : center ;
+  font : 12pt arial , sans-serif ;
+  padding : 5px ;
+}
+td.td_color_2{
+  width : 150px ;
+}
+th#th_in, th#th_none, th#th_out{
+  text-align : center ;
+}
+input.color{
+  width : 150px ;
+}
+tr{
+  background : #ddddff ;
+}
